@@ -8,7 +8,7 @@
 
 ## Today
 - [ ] Bill tries it on his phone over an HTTPS tunnel (step 8): install cloudflared, `cloudflared tunnel --url http://localhost:8000`
-- [ ] Commit (repo has never been committed) and create a private GitHub repo if Bill wants
+- [x] Committed + private repo https://github.com/Bjoseph23/voicerag-v2 (2026-11-12)
 
 ## Backlog
 - [ ] Better user captions: try `gpt-4o-mini-transcribe` instead of `whisper-1` (live captions sometimes wrong)
@@ -27,7 +27,7 @@
 - [x] Step 9: Foundry `gpt-realtime` works via `REALTIME_PROVIDER=foundry` (3.7–4.9 s vs mini 2.8–3.9 s first audio)
 
 ## Handoff (last session)
-- **Status:** Steps 1–9 built and verified live: voice, typed chat, citations, upload/index/delete, phone + desktop (Playwright, spoken WAV as fake mic). Not deployed. Nothing committed yet.
+- **Status:** Steps 1–9 built and verified live: voice, typed chat, citations, upload/index/delete, phone + desktop (Playwright, spoken WAV as fake mic). Not deployed. On GitHub (private).
 - **Next step:** Bill tries it himself (laptop: http://localhost:8000, phone: tunnel), then gives feedback / persona / model choice.
 - **Gotchas:** see AGENTS.md. Free Search tier (no semantic ranker). Backend dev server may still be running on :8000.
 - **Updated:** 2026-11-12 by claude
